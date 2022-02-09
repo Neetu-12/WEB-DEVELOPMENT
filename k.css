@@ -1,0 +1,14 @@
+#example1 {
+    /* properties are working with the help of display grid... */
+    display: grid;
+    place-items: center;
+  }
+  
+#log{
+    font-size: 12rem;
+    color:black;
+    margin: 2rem;
+}
+button:hover{
+    cursor: pointer;
+}
