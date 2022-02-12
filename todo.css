@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(222, 106, 226);
+}
+
+#input{
+    border:solid black;
+    font-size: 1rem;
+    height: 33px;
+    width: 224px;
+    background-color: rgb(235, 205, 205);
+}
+#button1{
+    font-weight: bold;
+    font-size: 1rem;
+    border: solid black;
+    background-color:white ;
+    height: 2.5rem;
+    width: 3rem;
+}
+#button1:hover{
+    cursor: pointer;
+    background-color:rgb(29, 19, 23) ;
+    color: white;
+}
+#cl{
+    border:solid black;
+    background-color: rgb(235, 205, 205);
+    font-size: 1rem;
+    height: 2rem;
+    width: 6rem;
+}
+#cl:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+li{
+    font-size: 1.6rem;
+}
+.delete{
+    font-weight:bold; /* cross jo nishan h output me usko bold krne k liye used hua h*/
+    border: solid black;
+    font-size: 1rem;
+    color: red;
+}
+.delete:hover{
+    background-color:black ;
+    cursor: pointer;
+}
+/*tag lenge to kuch nhi lenge :-if id ka name liya to hashtag lete h, or classes k liye bhi hum class k aage point lgate */
