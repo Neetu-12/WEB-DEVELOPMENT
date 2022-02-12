@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>calculator</h1>
+        <div class="calculator">
+            <input type="text" name="screen" id="screen">
+            <table>
+                <!-- <button onclick="save()">login</button> -->
+
+                <tr>
+                    <td><button id="button" onclick="save('9')">9</button></td>
+                    <td><button id="button" onclick="save('8')">8</button></td>
+                    <td><button id="button" onclick="save('7')">7</button></td>
+                    <td><button id="button" onclick="save('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button id="button" onclick="save('4')">4</button></td>
+                    <td><button id="button" onclick="save('5')">5</button></td>
+                    <td><button id="button" onclick="save('6')">6</button></td>
+                    <td><button id="button" onclick="save('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="button" onclick="save('1')">1</button></td>
+                    <td><button id="button" onclick="save('2')">2</button></td>
+                    <td><button id="button" onclick="save('3')">3</button></td>
+                    <td><button id="button" onclick="save('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button id="button" onclick="save('0')">0</button></td>
+                    <td><button id="button" onclick="save('.')">.</button></td>
+                    <td><button id="button" onclick="save('%')">%</button></td>
+                    <td><button id="button" onclick="solve('=')">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+<!-- src=it is denotes of the file -->
+
+</html>
