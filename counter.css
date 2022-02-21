@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-left: bottom;
+}
+#main{
+    background-color: rgb(42, 165, 159);
+    border: black solid;
+    width: 30rem;
+    height: 25rem;
+    margin-bottom: 2rem;
+}
+
+button:hover{
+    cursor: pointer;
+    
+}
+
+#main1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* border: black solid; */
+    /* background-color: transparent; */
+    /* box-shadow: 1px 1px 1px 1px black; */
+
+}
+#head{
+    font-size: 3rem;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+}
+#b1{
+    border: solid rgb(34, 32, 32);
+}
+#b2{
+    border: solid rgb(32, 30, 30);
+}
+#b3{
+    border: solid rgb(37, 31, 31);
+}
+#head1{
+    display: flex;
+    justify-content: center;
+}
