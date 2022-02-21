@@ -1,0 +1,31 @@
+#main{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+
+#btn1{
+  gap: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+#btn2{
+  background-color: rgb(217, 231, 15);
+  margin: 2rem;
+  height: 2rem;
+  width: 8rem;
+  border: black solid;
+}
+
+#btn2:hover{
+  cursor: pointer;
+}
+
+body{
+  background-color: blueviolet;
+}
+
+/* #ccount_id::before{
+  content: "\a";
+} */
